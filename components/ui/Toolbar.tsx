@@ -32,7 +32,7 @@ const Toolbar = () => {
       </NavbarContent>
 
       <NavbarContent justify="end">
-        <ul className={"hidden md:block gap-1"}>
+        <ul className={"hidden lg:block gap-1"}>
           {routes.map((route, i) => (
             <NavbarItem key={route.path}>
               <Button key={i} as={Link} color={pathname === route.path ? "primary" : "default"} startContent={(<span className={"material-symbols-rounded"}>{route.icon}</span>)} variant={pathname === route.path ? "flat" : "light"}>{route.label}</Button>
@@ -40,7 +40,7 @@ const Toolbar = () => {
           ))}
         </ul>
 
-        <div className={"block md:hidden"}>
+        <div className={"block lg:hidden"}>
           <NavbarMenuToggle icon={(<span className={"material-symbols-rounded"}>{isMenuOpen ? "close" : "menu" }</span>)} />
         </div>
       </NavbarContent>
