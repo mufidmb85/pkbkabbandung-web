@@ -11,3 +11,19 @@
             'GRAD' 0,
             'opsz' 24
 }
+
+embla {
+    --slide-size: 100%;
+}
+.embla__viewport {
+    overflow: hidden;
+}
+.embla__container {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+}
+.embla__slide {
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 100%;
+    min-width: 0;
+}
