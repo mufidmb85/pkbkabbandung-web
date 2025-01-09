@@ -20,7 +20,6 @@ export const metadata: Metadata = {
     apple: siteConfig.icons.apple,
     shortcut: siteConfig.icons.shortcut,
   },
-  manifest: siteConfig.manifest,
   other: siteConfig.other,
 };
 
@@ -37,10 +36,10 @@ export default function RootLayout({ children, }: { children: React.ReactNode; }
       <head />
       <body className={clsx("min-h-screen bg-background font-sans antialiased", fontSans.variable,)}>
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-          <div className="relative flex flex-col h-screen">
+          <div className={"relative flex flex-col h-screen"}>
             <Toolbar />
             {children}
-            <footer className="w-full flex items-center justify-center py-3" />
+            <footer className={"w-full flex items-center justify-center py-3"} />
           </div>
         </Providers>
       </body>
