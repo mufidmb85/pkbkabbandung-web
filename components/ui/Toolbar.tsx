@@ -32,10 +32,10 @@ const Toolbar = () => {
       </NavbarContent>
 
       <NavbarContent justify="end">
-        <ul className={"hidden lg:block gap-1"}>
+        <ul className={"hidden lg:flex flex-row gap-1"}>
           {routes.map((route, i) => (
             <NavbarItem key={route.path}>
-              <Button key={i} as={Link} color={pathname === route.path ? "primary" : "default"} startContent={(<span className={"material-symbols-rounded"}>{route.icon}</span>)} variant={pathname === route.path ? "flat" : "light"}>{route.label}</Button>
+              <Button key={i} as={Link} color={pathname === route.path ? "primary" : "default"} href={route.path} startContent={(<span className={"material-symbols-rounded"}>{route.icon}</span>)} variant={pathname === route.path ? "flat" : "light"}>{route.label}</Button>
             </NavbarItem>
           ))}
         </ul>
@@ -48,7 +48,7 @@ const Toolbar = () => {
       <NavbarMenu>
         {routes.map((route, i) => (
           <NavbarMenuItem key={route.path} className={"w-full"}>
-            <Button className={"w-full justify-start items-center py-1"} key={i} as={Link} color={pathname === route.path ? "primary" : "default"} startContent={(<span className={"material-symbols-rounded"}>{route.icon}</span>)} variant={pathname === route.path ? "flat" : "light"} onPress={() => {setIsMenuOpen(false)}}>{route.label}</Button>
+            <Button className={"w-full justify-start items-center py-1"} key={i} as={Link} href={route.path} color={pathname === route.path ? "primary" : "default"} startContent={(<span className={"material-symbols-rounded"}>{route.icon}</span>)} variant={pathname === route.path ? "flat" : "light"} onPress={() => {setIsMenuOpen(false)}}>{route.label}</Button>
           </NavbarMenuItem>
         ))}
       </NavbarMenu>
