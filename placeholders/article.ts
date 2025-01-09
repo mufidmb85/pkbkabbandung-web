@@ -1,0 +1,121 @@
+export type ArticlePlaceholder = typeof articlePlaceholder;
+
+export const articlePlaceholder = [
+  {
+    id: "1",
+    title: "The Complete Guide to Time Management",
+    author: "John Doe",
+    authorId: "a1",
+    date: new Date("2025-01-10T12:00:00"),
+    imageUrl: "https://placehold.co/1280x720?text=Image+Banner",
+    content: "This article provides tips on how to efficiently manage your work time...",
+    tags: ["time", "management", "work"],
+    category: "Career",
+    excerpt: "This article provides tips on time management...",
+    slug: "the-complete-guide-to-time-management"
+  },
+  {
+    id: "2",
+    title: "Healthy Foods to Boost Your Stamina",
+    author: "Jane Smith",
+    authorId: "a2",
+    date: new Date("2025-01-09T09:30:00"),
+    imageUrl: "https://placehold.co/1280x720?text=Image+Banner",
+    content: "In this article, we discuss several foods that help maintain stamina...",
+    tags: ["health", "healthy food", "stamina"],
+    category: "Health",
+    excerpt: "Foods that help boost your stamina...",
+    slug: "healthy-foods-to-boost-your-stamina"
+  },
+  {
+    id: "3",
+    title: "Effective Ways to Learn a Foreign Language in the Digital Age",
+    author: "Michael Lee",
+    authorId: "a3",
+    date: new Date("2025-01-08T15:45:00"),
+    imageUrl: "https://placehold.co/1280x720?text=Image+Banner",
+    content: "Learning a foreign language is easier now thanks to technological advancements. This article offers effective tips...",
+    tags: ["foreign language", "learning", "digital"],
+    category: "Education",
+    excerpt: "Learning a foreign language is easier now with technology...",
+    slug: "effective-ways-to-learn-a-foreign-language-in-the-digital-age"
+  },
+  {
+    id: "4",
+    title: "10 Best Travel Destinations in Indonesia",
+    author: "Rina Wijaya",
+    authorId: "a4",
+    date: new Date("2025-01-07T10:15:00"),
+    imageUrl: "https://placehold.co/1280x720?text=Image+Banner",
+    content: "Indonesia has many amazing travel destinations. This article covers the 10 best places to visit...",
+    tags: ["travel", "destinations", "Indonesia"],
+    category: "Travel",
+    excerpt: "This article covers 10 of the best travel destinations in Indonesia...",
+    slug: "10-best-travel-destinations-in-indonesia"
+  },
+  {
+    id: "5",
+    title: "The Benefits of Investing in the Stock Market",
+    author: "Sandy Pratama",
+    authorId: "a5",
+    date: new Date("2025-01-06T14:00:00"),
+    imageUrl: "https://placehold.co/1280x720?text=Image+Banner",
+    content: "Investing in the stock market offers great potential returns, but also carries risks...",
+    tags: ["investment", "stocks", "finance"],
+    category: "Finance",
+    excerpt: "Investing in the stock market offers great potential returns...",
+    slug: "the-benefits-of-investing-in-the-stock-market"
+  },
+  {
+    id: "6",
+    title: "Digital Marketing Strategies for Small Businesses",
+    author: "Diana Sari",
+    authorId: "a6",
+    date: new Date("2025-01-05T11:30:00"),
+    imageUrl: "https://placehold.co/1280x720?text=Image+Banner",
+    content: "Digital marketing is essential for small businesses to compete in today’s market...",
+    tags: ["digital marketing", "small business", "strategies"],
+    category: "Business",
+    excerpt: "Digital marketing is essential for small businesses to compete...",
+    slug: "digital-marketing-strategies-for-small-businesses"
+  },
+  {
+    id: "7",
+    title: "How to Manage Stress at Work",
+    author: "Tina Hartanto",
+    authorId: "a7",
+    date: new Date("2025-01-04T13:00:00"),
+    imageUrl: "https://placehold.co/1280x720?text=Image+Banner",
+    content: "Stress at work is a common issue that can reduce productivity. Here are some solutions...",
+    tags: ["stress", "work", "solutions"],
+    category: "Career",
+    excerpt: "Stress at work can reduce productivity. Here are some ways to manage it...",
+    slug: "how-to-manage-stress-at-work"
+  },
+  {
+    id: "8",
+    title: "Latest Technologies in the Automotive Industry",
+    author: "Budi Santoso",
+    authorId: "a8",
+    date: new Date("2025-01-03T08:45:00"),
+    imageUrl: "https://placehold.co/1280x720?text=Image+Banner",
+    content: "The automotive industry continues to evolve with new technologies. This article covers the latest trends...",
+    tags: ["automotive", "technology", "trends"],
+    category: "Technology",
+    excerpt: "The automotive industry continues to evolve with the latest technologies...",
+    slug: "latest-technologies-in-the-automotive-industry"
+  },
+  {
+    id: "9",
+    title: "The Importance of Financial Education for Kids",
+    author: "Fajar Nugroho",
+    authorId: "a9",
+    date: new Date("2025-01-02T16:00:00"),
+    imageUrl: "https://placehold.co/1280x720?text=Image+Banner",
+    content: "Financial education is crucial for children so they can learn how to manage money wisely...",
+    tags: ["financial education", "kids", "financial literacy"],
+    category: "Education",
+    excerpt: "Financial education is important for kids to learn how to manage money...",
+    slug: "the-importance-of-financial-education-for-kids"
+  }
+];
