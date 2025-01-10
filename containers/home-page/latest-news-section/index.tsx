@@ -10,8 +10,8 @@ const LatestNewsSection = () => {
 
   return (
     <section>
-      <div className={"flex flex-col p-6 bg-content2"}>
-        <div className={"flex flex-col basis-1/5 p-4 items-center justify-center"}>
+      <div className={"flex flex-col p-6 md:p-16 bg-content2"}>
+        <div className={"flex flex-col basis-1/5 items-center justify-center p-6"}>
           <h1 className={"text-4xl text-content2-foreground font-bold uppercase"}>Latest News</h1>
           <p className={"text-2xl text-content2-foreground font-normal"}>Discover our latest news</p>
         </div>

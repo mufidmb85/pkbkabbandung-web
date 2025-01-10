@@ -12,9 +12,9 @@ const LatestNewsGrid: React.FC = () => {
 
   React.useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 1536) {
+      if (window.innerWidth > 1536) {
         setItemsToShow(12);
-      } else if (window.innerWidth >= 768) {
+      } else if (window.innerWidth > 768) {
         setItemsToShow(9);
       } else {
         setItemsToShow(6);
