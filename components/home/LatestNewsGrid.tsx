@@ -5,7 +5,7 @@ import { sortArticlesByDate } from "@/utils/SortArticle";
 import { articlePlaceholder } from "@/placeholders/article";
 import ArticleItemCard from "@/components/news/article/ArticleItemCard";
 
-const LatestNewsList:React.FC = () => {
+const LatestNewsGrid:React.FC = () => {
 
   const [itemsToShow, setItemsToShow] = React.useState<number>(6);
 
@@ -48,4 +48,4 @@ const LatestNewsList:React.FC = () => {
   )
 }
 
-export default LatestNewsList;
+export default LatestNewsGrid;

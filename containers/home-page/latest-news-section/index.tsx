@@ -1,7 +1,13 @@
-import LatestNewsList from "@/components/home/LatestNewsList";
+"use client";
+
+import LatestNewsGrid from "@/components/home/LatestNewsGrid";
 import { Button } from "@nextui-org/button";
+import { useRouter } from "next/navigation";
 
 const LatestNewsSection = () => {
+
+  const router = useRouter();
+
   return (
     <section>
       <div className={"flex flex-col p-6 bg-content2"}>
@@ -10,10 +16,10 @@ const LatestNewsSection = () => {
           <p className={"text-2xl text-content2-foreground font-normal"}>Discover our latest news</p>
         </div>
         <div className={"flex flex-row basis-4/5 p-6"}>
-          <LatestNewsList />
+          <LatestNewsGrid />
         </div>
         <div className={"flex flex-row w-full justify-center items-center sm:justify-end p-6"}>
-          <Button variant={"light"} color={"primary"}>See more</Button>
+          <Button variant={"light"} color={"primary"} onPress={() => router.push("/news")}>See more</Button>
         </div>
       </div>
     </section>
