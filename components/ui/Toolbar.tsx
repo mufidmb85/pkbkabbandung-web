@@ -21,7 +21,7 @@ const Toolbar = () => {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   return (
-    <Navbar className={"w-full max-w-8xl"} isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
+    <Navbar className={"px-6"} maxWidth={"full"} isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent justify={"start"}>
         <NavbarBrand>
           <Link className={"gap-1"} href={"/"} color={"primary"}>

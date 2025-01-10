@@ -15,7 +15,6 @@ const HeroSection = () => {
 
   const emblaContainerStyle = {
     display: "flex",
-    flexDirection: "row",
     aspectRatio: "16/9",
     width: "100vw",
     height: "auto",
@@ -39,7 +38,7 @@ const HeroSection = () => {
           <div className="embla__container" style={emblaContainerStyle}>
             {heroSection.map((hero, i) => (
               <div className="embla__slide" style={emblaSlideStyle} key={i}>
-                <Image className={"z-0"} src={hero.src} alt={hero.alt} radius="none" loading={"lazy"}  style={{ objectFit: "cover", objectPosition: "center", }} width={1920} height={1080} />
+                <Image className={"z-0 w-full h-full"} src={hero.src} alt={hero.alt} radius="none" loading={"lazy"}  style={{ objectFit: "cover", objectPosition: "center", }} />
                 <div className="flex flex-col justify-center items-center absolute z-10 bg-content1/30 inset-0" key={i}>
                   <h1 className="font-black text-primary text-2xl sm:text-4xl uppercase">{hero.title}</h1>
                   <h2 className="font-normal text-default-foreground text-xl sm:text-2xl">{hero.subtitle}</h2>
