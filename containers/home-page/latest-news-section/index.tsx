@@ -12,7 +12,7 @@ const LatestNewsSection = () => {
         <div className={"flex flex-row basis-4/5 p-6"}>
           <LatestNewsList />
         </div>
-        <div className={"flex flex-row w-full justify-center items-center sm:justify-end p-4"}>
+        <div className={"flex flex-row w-full justify-center items-center sm:justify-end p-6"}>
           <Button variant={"light"} color={"primary"}>See more</Button>
         </div>
       </div>

@@ -18,14 +18,14 @@ const ArticleItemCard:React.FC<ArticleProps> = (props: ArticleProps) => {
       <CardHeader className={"p-0 m-0 aspect-[4/3]"}>
         <Image className={"w-full h-full aspect-[4/3]"} src={props.imageUrl} alt={props.title} radius={"none"} style={{objectFit: "cover", objectPosition: "center"}} />
       </CardHeader>
-      <CardBody>
-        <h1 className={"text-primary text-2xl font-medium"}>{props.title}</h1>
-        <h2 className={"text-content1-foreground text-xl font-normal"}>{props.excerpt}</h2>
+      <CardBody className={"gap-y-4"}>
+        <h1 className={"text-primary text-xl lg:text-2xl font-medium line-clamp-2"}>{props.title}</h1>
+        <h2 className={"text-content1-foreground text-xs lg:text-xl font-normal line-clamp-2"}>{props.excerpt}</h2>
       </CardBody>
       <CardFooter>
         <div className={"flex flex-col justify-center items-start"}>
-          <p className={"text-content1-foreground text-xl font-normal"}>By <strong>{props.author}</strong></p>
-          <p className={"text-content1-foreground text-xl font-light"}>{formattedDate}</p>
+          <p className={"text-content1-foreground text-xs lg:text-xl font-normal"}>By <strong>{props.author}</strong></p>
+          <p className={"text-content1-foreground text-xs lg:text-xl font-light"}>{formattedDate}</p>
         </div>
       </CardFooter>
     </Card>
