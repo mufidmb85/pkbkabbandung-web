@@ -12,7 +12,6 @@ export const articlePlaceholder = [
     tags: ["time", "management", "work"],
     category: "Career",
     excerpt: "This article provides tips on time management...",
-    slug: "the-complete-guide-to-time-management"
   },
   {
     id: "2",
@@ -25,7 +24,6 @@ export const articlePlaceholder = [
     tags: ["health", "healthy food", "stamina"],
     category: "Health",
     excerpt: "Foods that help boost your stamina...",
-    slug: "healthy-foods-to-boost-your-stamina"
   },
   {
     id: "3",
@@ -38,7 +36,6 @@ export const articlePlaceholder = [
     tags: ["foreign language", "learning", "digital"],
     category: "Education",
     excerpt: "Learning a foreign language is easier now with technology...",
-    slug: "effective-ways-to-learn-a-foreign-language-in-the-digital-age"
   },
   {
     id: "4",
@@ -51,7 +48,6 @@ export const articlePlaceholder = [
     tags: ["travel", "destinations", "Indonesia"],
     category: "Travel",
     excerpt: "This article covers 10 of the best travel destinations in Indonesia...",
-    slug: "10-best-travel-destinations-in-indonesia"
   },
   {
     id: "5",
@@ -64,7 +60,6 @@ export const articlePlaceholder = [
     tags: ["investment", "stocks", "finance"],
     category: "Finance",
     excerpt: "Investing in the stock market offers great potential returns...",
-    slug: "the-benefits-of-investing-in-the-stock-market"
   },
   {
     id: "6",
@@ -77,7 +72,6 @@ export const articlePlaceholder = [
     tags: ["digital marketing", "small business", "strategies"],
     category: "Business",
     excerpt: "Digital marketing is essential for small businesses to compete...",
-    slug: "digital-marketing-strategies-for-small-businesses"
   },
   {
     id: "7",
@@ -90,7 +84,6 @@ export const articlePlaceholder = [
     tags: ["stress", "work", "solutions"],
     category: "Career",
     excerpt: "Stress at work can reduce productivity. Here are some ways to manage it...",
-    slug: "how-to-manage-stress-at-work"
   },
   {
     id: "8",
@@ -103,7 +96,6 @@ export const articlePlaceholder = [
     tags: ["automotive", "technology", "trends"],
     category: "Technology",
     excerpt: "The automotive industry continues to evolve with the latest technologies...",
-    slug: "latest-technologies-in-the-automotive-industry"
   },
   {
     id: "9",
@@ -116,7 +108,6 @@ export const articlePlaceholder = [
     tags: ["financial education", "kids", "financial literacy"],
     category: "Education",
     excerpt: "Financial education is important for kids to learn how to manage money...",
-    slug: "the-importance-of-financial-education-for-kids"
   },
   {
     id: "10",
@@ -129,7 +120,6 @@ export const articlePlaceholder = [
     tags: ["finance", "planning", "personal finance"],
     category: "Finance",
     excerpt: "Learn how to build a personal finance plan to manage your money effectively...",
-    slug: "how-to-build-a-personal-finance-plan"
   },
   {
     id: "11",
@@ -142,7 +132,6 @@ export const articlePlaceholder = [
     tags: ["entrepreneurship", "time management", "productivity"],
     category: "Career",
     excerpt: "Master time management to increase productivity as an entrepreneur...",
-    slug: "mastering-time-management-for-entrepreneurs"
   },
   {
     id: "12",
@@ -155,7 +144,6 @@ export const articlePlaceholder = [
     tags: ["AI", "technology", "future"],
     category: "Technology",
     excerpt: "Explore the future of AI and how it will revolutionize industries...",
-    slug: "exploring-the-future-of-artificial-intelligence"
   },
   {
     id: "13",
@@ -168,7 +156,6 @@ export const articlePlaceholder = [
     tags: ["work-life balance", "health", "career"],
     category: "Health",
     excerpt: "Discover ways to balance work and personal life for a healthier lifestyle...",
-    slug: "how-to-create-a-healthy-work-life-balance"
   },
   {
     id: "14",
@@ -181,7 +168,6 @@ export const articlePlaceholder = [
     tags: ["travel", "Europe", "tourism"],
     category: "Travel",
     excerpt: "Check out the top tourist destinations in Europe for your next vacation...",
-    slug: "exploring-the-top-tourist-spots-in-europe"
   },
   {
     id: "15",
@@ -194,7 +180,6 @@ export const articlePlaceholder = [
     tags: ["cryptocurrency", "blockchain", "finance"],
     category: "Technology",
     excerpt: "Get an overview of cryptocurrency and blockchain technology...",
-    slug: "understanding-cryptocurrency-and-blockchain"
   },
   {
     id: "16",
@@ -207,7 +192,6 @@ export const articlePlaceholder = [
     tags: ["remote work", "career", "workplace"],
     category: "Career",
     excerpt: "Learn how to adapt to remote work and improve your productivity...",
-    slug: "the-rise-of-remote-work-and-how-to-make-it-work-for-you"
   },
   {
     id: "17",
@@ -220,7 +204,6 @@ export const articlePlaceholder = [
     tags: ["sustainability", "environment", "lifestyle"],
     category: "Lifestyle",
     excerpt: "Discover practical ways to live more sustainably and protect the environment...",
-    slug: "exploring-sustainable-living-practices"
   },
   {
     id: "18",
@@ -233,6 +216,5 @@ export const articlePlaceholder = [
     tags: ["blogging", "career", "content creation"],
     category: "Business",
     excerpt: "Learn how to start a successful blog with our step-by-step guide...",
-    slug: "how-to-start-a-successful-blog-in-2025"
   }
 ];

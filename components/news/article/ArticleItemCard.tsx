@@ -6,9 +6,10 @@ import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/card";
 import { Image } from "@nextui-org/image";
 import { formatDate } from "@/utils/Date";
 import { useRouter } from "next/navigation";
+import { generateSlug } from "@/utils/Slug";
 
 const ArticleItemCard:React.FC<ArticleProps> = (props: ArticleProps) => {
-  const articleUrl = "/news/article/" + props.slug;
+  const articleUrl = "/news/article/" + generateSlug(props.title);
   const router = useRouter();
   const date = props.date;
   const formattedDate = formatDate(date);
